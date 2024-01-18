@@ -85,10 +85,11 @@ function asideSectionTogglerBtn() {
 function sendMail() {
   var sendButton = document.getElementById("btn");
   sendButton.disabled = true;
+  
   var params = {
     from_name: document.getElementById("fullname").value,
     email_id: document.getElementById("email_id").value,
-    message: document.getElementById("message").value,
+    message: `${document.getElementById("message").value}\n from: ${document.getElementById("email_id").value}`, 
   };
   emailjs
     .send("service_9jel5wi", "template_nelr8sm", params)
