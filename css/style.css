@@ -22,7 +22,71 @@ body
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
+/*Styling For Buttons In Home Page */
+.btn {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 5px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #75b8f1;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease-in-out;
+}
 
+.btn:hover {
+  background-color: #b3d6f1;
+}
+
+.btn i {
+  vertical-align: middle;
+}
+
+.btn-secondary {
+  border: none;
+}
+
+.linkedin-icon,
+.facebook-icon,
+.github-icon {
+  display: inline-block;
+  border: 1px solid transparent;
+  transition: border-color 0.3s ease-in-out;
+  padding: 8px 12px; /* Adjust padding to match button size */
+  margin: 5px; /* Adjust margin to match button size */
+}
+
+.linkedin-icon:hover,
+.facebook-icon:hover,
+.github-icon:hover {
+  border-color: #ccc;
+}
+.btn-download-cv {
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .btn-download-cv:hover {
+    border-color: #ccc;
+  }
+  
+  footer {
+    background-color: transparent; /* Adjust background color as needed */
+    padding: 0.5px 0; /* Adjust padding as needed */
+    position: fixed; /* Fixed at the bottom of the viewport */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #6c757d; /* Adjust text color as needed */
+    font-size: inherit; /* Ensure font size remains the same */
+}
+
+
+  
 *
 {
     margin: 0;
@@ -95,8 +159,8 @@ ul
 }
 .section .container
 {
-    padding-top: 60px;
-    padding-bottom: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .section-title
 {
