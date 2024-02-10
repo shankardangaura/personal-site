@@ -96,6 +96,12 @@ function sendMail() {
     .then(function (res) {
       alert("Your Email Is Successfully Sent! " + res.status);
       sendButton.disabled = false;
+      document.getElementById("fullname").value="";
+      document.getElementById("email_id").value="";
+      document.getElementById("message").value="";
+      document.getElementById("subject").value="";
+
     })
     .catch((err) => (sendButton.disabled = false));
+    
 }
