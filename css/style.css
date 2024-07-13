@@ -756,11 +756,25 @@ h3.my-profession
     color: var(--text-black-900);
     font-weight: 500;
 }
+.portfolio .portfolio-heading h3
+{
+    color: var(--text-black-900);
+    font-weight: 500;
+    padding-left: 5px;
+}
+.portfolio .portfolio-heading h6
+{
+    font-size: 16px;
+    color: var(--text-black-700);
+    line-height: 25px;
+    text-align: justify;
+    padding: 5px; 
+}
 .portfolio .portfolio-item
 {
     flex: 0 0 33.33%;
     max-width: 33.33%;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 .portfolio .portfolio-item-inner
 {
